@@ -1,0 +1,420 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'GongGothicMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-size: 18px;
+    font-family: 'GongGothicMedium';
+    line-height: 32px;
+    color: #181e21;
+    background-color: #ffffff;
+    min-width: 1450px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/*header 시작*/
+
+header {
+    height: 100px;
+    font-size: 20px;
+    font-weight: bold;
+    position: fixed;
+    z-index: 50;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.header_inner {
+    width: 1320px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+.header_inner .logo {
+    width: 136px;
+    height: 100px;
+    padding-right: 150px;
+    margin-top: 23px;
+}
+
+header .gnb {
+    display: flex;
+}
+
+header .gnb li {
+    padding-right: 60px;
+}
+
+header .gnb2 {
+    margin-left: auto;
+    display: flex;
+}
+
+header .gnb2 li {
+    padding-left: 30px;
+}
+
+/*sub1 banner*/
+
+#sub1_banner img {
+    width: 100%;
+    border-bottom: solid 2px #251c10;
+    height: 858px;
+}
+
+/*story*/
+
+#story1 {
+    position: relative;
+    height: 1000px;
+    text-align: center;
+}
+
+.story1_inner {
+    width: 1320px;
+    margin: auto;
+    text-align: center;
+
+}
+
+.story1_inner .font {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    padding-top: 120px;
+    margin-bottom: 10px;
+}
+
+.story1_inner .size {
+    font-size: 15px;
+    margin-bottom: 60px;
+}
+
+.story1_inner .anguish {
+    margin-top: 50px;
+    position: absolute;
+    bottom: 125px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+#story1 #slide1 {
+    width: 100%;
+    overflow: hidden;
+    height: 90px;
+    margin-top: 200px;
+
+}
+
+.slide_inner1 {
+    width: 200%;
+    animation: rotate 10s linear infinite;
+}
+
+@keyframes rotate {
+    0% {
+        margin-left: 0;
+    }
+
+    100% {
+        margin-left: -100%;
+    }
+}
+
+#story1 #slide2 {
+    width: 100%;
+    overflow: hidden;
+    height: 90px;
+    margin-top: 20px;
+    padding-bottom: 160px;
+}
+
+.slide_inner2 {
+    width: 200%;
+    animation: rotate 20s linear infinite;
+}
+
+@keyframes rotate {
+    0% {
+        margin-left: 0;
+    }
+
+    100% {
+        margin-left: -100%;
+    }
+}
+
+#story1 .make {
+    font-weight: 400;
+    font-size: 35px;
+}
+
+/*story2*/
+
+#story2 {
+    height: 1300px;
+    border-bottom: #251c10 2px solid;
+    background: url(./images/cloud1.jpg.png) no-repeat 101% 43%;
+
+}
+
+.story2_inner {
+    width: 1320px;
+    margin: auto;
+    text-align: center;
+    background: url(./images/cloud2.jpg.png) no-repeat 7% 3%;
+}
+
+.story2_inner .products {
+    padding-top: 20px;
+    padding-bottom: 80px;
+}
+
+.story2_inner .align {
+    text-align: left;
+    padding-left: 420px;
+    padding-bottom: 120px;
+}
+
+#story2 .photo {
+    width: 1140px;
+    margin: auto;
+    position: relative;
+    height: 628px;
+}
+
+#story2 .photo img {
+    height: 428px;
+}
+
+#story2 .woman img,
+#story2 .woman p {
+    float: right;
+    padding-top: 200px;
+}
+
+#story2 .woman p {
+    padding-top: 400px;
+    padding-right: 30px;
+}
+
+#story2 .photo .baby {
+    position: absolute;
+    top: 0px;
+    left: 0;
+}
+
+/*identity*/
+#identity {
+    border-bottom: 2px solid #251c10;
+}
+
+.identity_inner {
+    width: 1140px;
+    margin: 0 auto;
+    position: relative;
+    height: 1600px;
+}
+
+.identity_inner>h1,
+.identity_inner>.size {
+    text-align: center;
+}
+
+.identity_inner>h1 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    padding-top: 120px;
+    margin-bottom: 10px;
+}
+
+.identity_inner h2 {
+    padding-bottom: 20px;
+    font-weight: 400;
+}
+
+.identity_inner span {
+    color: #7e90c4;
+}
+
+.identity_inner .size {
+    font-size: 15px;
+    margin-bottom: 90px;
+}
+
+
+
+.identity_inner .p2 {
+    position: absolute;
+    right: 0;
+    top: 370px;
+}
+
+.identity_inner .p3 {
+    position: absolute;
+    left: 0px;
+    bottom: 585px;
+    text-align: right;
+}
+
+.identity_inner .p4 {
+    position: absolute;
+    right: 60px;
+    top: 745px;
+}
+
+.identity_inner .p5 {
+    position: absolute;
+    left: 15px;
+    bottom: 110px;
+}
+
+.identity_inner .p6 {
+    position: absolute;
+    right: 15px;
+    bottom: 150px;
+}
+
+/*brand_sevebanner*/
+
+#brand_sevebanner {
+    border-bottom: #251c10 2px solid;
+    width: 100%;
+}
+
+#brand_sevebanner img {
+    width: 100%;
+    height: 940px;
+}
+
+/*map*/
+.map_inner h1 {
+    padding-top: 100px;
+    padding-bottom: 60px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.map_inner {
+    width: 1275px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+
+.map_inner th,
+td {
+    border-top: 2px solid #251c10;
+    padding: 10px 25px;
+    font-size: 16px;
+}
+
+.map_inner td {
+    font-size: 16px;
+}
+
+.map_inner .time {
+    border-bottom: 2px solid #251c10;
+}
+
+table {
+    border-collapse: collapse;
+    width: 585px;
+}
+
+iframe {
+    float: left;
+}
+
+table {
+    float: right;
+}
+
+.map_inner p {
+    float: right;
+    padding-top: 50px;
+}
+
+.map_inner a {
+    display: block;
+    float: right;
+    width: 215px;
+    height: 48px;
+}
+
+.map_inner .kakao {
+    padding-right: 20px;
+}
+
+/*footer*/
+
+#footer {
+    background-image: url(./images/footer.png);
+    width: 100%;
+    height: 300px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+
+}
+
+#footer .footer_inner {
+    width: 1100px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.float_left {
+    float: left;
+    margin-top: 80px;
+}
+
+.float_right {
+    float: right;
+    margin-top: 120px;
+}
+
+.float_right li {
+    float: left;
+    padding-left: 20px;
+}
+
+.sumin {
+    margin-top: 20px;
+}
+
+.footer_logo {
+    margin-bottom: 10px;
+}

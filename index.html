@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1450">
+    <title>Fumear</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./main.css">
+    <link rel="shortcut icon" href="./images/icon.png">
+</head>
+
+<body>
+    <!--header 시작-->
+    <header class="clearfix">
+        <div class="header_inner">
+            <div class="logo">
+                <a href="./index.html">
+                    <img src="./images/main_logo.png" alt="로고">
+                </a>
+            </div>
+            <ul class="gnb clearfix">
+                <li>
+                    <a href="./sub1.html">
+                        BRAND
+                    </a>
+                </li>
+                <li>
+                    <a href="./sub2.html">
+                        PRODUCT
+                    </a>
+                </li>
+                <li>
+                    <a href="./sub3.html">
+                        CUSTOM
+                    </a>
+                </li>
+                <li>
+                    <a href="./sub4.html">
+                        COMMUNITY
+                    </a>
+                </li>
+            </ul>
+            <ul class="gnb2">
+                <li>
+                    <a href="#none">
+                        MY
+                    </a>
+                </li>
+                <li>
+                    <a href="#none">
+                        STORE
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!--header_inner-->
+    </header>
+    <!--header 끝-->
+
+    <!--main_banner 시작-->
+    <div id="main_banner">
+        <video src="./images/main_fumear.mp4" autoplay loop muted playsinline></video>
+    </div>
+    <!--main_banner 끝-->
+
+    <!--fumear 흘러가는 글자(slide) 시작-->
+    <div id="slide1">
+        <div class="slide_inner1">
+            <img src="./images/MAKEYOUHAPPY_FUMEAR.png" alt="흐르는 글자">
+        </div>
+        <!--slide inner-->
+    </div>
+    <!--fumear 흘러가는 글자(slide) 끝-->
+
+    <!--brand 시작-->
+    <div id="brand">
+        <div class="brand_inner">
+
+
+            <h1>
+                Only 퓨미어
+            </h1>
+            <p>
+                나를 표현하는 즐거움!
+            </p>
+
+            <ul>
+                <li>
+                    <img src="./images/home.gif" alt="홈">
+                    <h3>
+                        In My Home
+                    </h3>
+                    <p>
+                        집에서도 언제나 손쉽게! <br>
+                        지친 나를 힐링해보자
+                    </p>
+                    <p class="in">
+                        #In_My_FUMEAR
+                    </p>
+                </li>
+                <li class="checklist">
+                    <img src="./images/CHECKLIST_main.gif" alt="체크리스트">
+                    <h3>
+                        나만의 CUSTOM
+                    </h3>
+                    <p>
+                        세상에서 단 하나뿐인 나만의 <br>
+                        유니크한 향을 만들어 보자!
+                    </p>
+                    <p class="in">
+                        #FUMEAR_COSTOM
+                    </p>
+                </li>
+                <li>
+                    <img src="./images/flower.gif" class="flower" alt="플라워">
+                    <h3>
+                        다양한 향과 색상
+                    </h3>
+                    <p>
+                        20여가지의 향과 색상! <br>
+                        천연재료를 이용해 품질까지 완벽!
+                    </p>
+                    <p class="in">
+                        #Different_FUMEAR
+                    </p>
+                </li>
+            </ul>
+            <img src="./images/circle.jpg.png" class="circle" alt="돌아가는 원">
+            <ul class="clickme">
+                <li><a href="./sub1.html"></a></li>
+            </ul>
+        </div>
+    </div>
+    <!--brand 끝-->
+
+    <!--box3 시작-->
+    <div id="box3">
+        <div class="box3_inner clearfix">
+            <div class="blossom">
+                <!--돌아가는 꽃-->
+            </div>
+            <div class="new clearfix">
+                <div class="new_text">
+                    <h1>
+                        NEW
+                    </h1>
+                    <h2>
+                        SAKURA
+                    </h2>
+                    <p>
+                        #Spring #Youth #Blossom
+                    </p>
+                    <ul class="clickme2">
+                        <li><a href="./sub2.html"></a></li>
+                    </ul>
+                </div>
+
+                <!-- Swiper -->
+                <div class="swiper new_product">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="./images/main_sakura_path.png" alt="메인_목업">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/mockup1_1.png" alt="사쿠라목업1_1">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/mockup1_2.png" alt="사쿠라목업1_2">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/mockup1_3.png" alt="사쿠라목업1_3">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/mockup1_4.png" alt="사쿠라목업1_4">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/mockup1_5.png" alt="사쿠라목업1_5">
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Swiper JS -->
+                <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+                <!-- Initialize Swiper -->
+                <script>
+                    var swiper = new Swiper(".new_product", {
+                        spaceBetween: 30,
+                        centeredSlides: true,
+                        autoplay: {
+                            delay: 2500,
+                            disableOnInteraction: false,
+                        },
+                        pagination: {
+                            el: ".swiper-pagination",
+                            clickable: true,
+                        },
+                        navigation: {
+                            nextEl: ".swiper-button-next",
+                            prevEl: ".swiper-button-prev",
+                        },
+                    });
+                </script>
+            </div>
+            <!--new-->
+
+            <!--event-->
+            <div class="event">
+                <h1>
+                    EVENT
+                </h1>
+                <div class="center">
+                    <a href="./event1.html">
+                        <img src="./images/event_main1.png" alt="이벤트1">
+                    </a>
+                    <h3>
+                        FUMEAR와 함께하는 봄 이벤트!
+                    </h3>
+                    <p>
+                        싱긋한 봄이 왔어요! <br>
+                        집에서도 봄을 즐기자. 욕조 가득 꽃내음이~
+                    </p>
+                </div>
+            </div>
+            <!--event-->
+        </div>
+        <!--box3_inner-->
+    </div>
+    <!--box3 끝-->
+    <!--product-->
+    <div id="product">
+        <h1>
+            PRODUCTS
+        </h1>
+        <ul class="products">
+            <li class="sa1">
+                <img src="./images/mockup1_1.png" alt="사쿠라1">
+                <div class="blackbox">
+                    <h2>SAKURA</h2>
+                    <p>Body Wash</p>
+                </div>
+            </li>
+            <li class="sa2">
+                <img src="./images/mockup1_2.png" alt="사쿠라2">
+                <div class="blackbox">
+                    <h2>SAKURA</h2>
+                    <p>Body Lotion</p>
+                </div>
+            </li>
+            <li class="sa3">
+                <img src="./images/mockup1_3.png" alt="사쿠라3">
+                <div class="blackbox">
+                    <h2>SAKURA</h2>
+                    <p>Hand Soap</p>
+                </div>
+            </li>
+            <li class="sa4">
+                <img src="./images/mockup1_4.png" alt="사쿠라4">
+                <div class="blackbox">
+                    <h2>SAKURA</h2>
+                    <p>Hand Cream</p>
+                </div>
+            </li>
+            <li class="sa5">
+                <img src="./images/mockup1_5.png" alt="사쿠라5">
+                <div class="blackbox">
+                    <h2>SAKURA</h2>
+                    <p>FOAM CLEANER</p>
+                </div>
+
+            </li>
+        </ul>
+        <div id="slide">
+            <div class="slide_inner">
+                <img src="./images/MAKEYOUHAPPY_FUMEAR_1.png" alt="흐르는 글자">
+            </div>
+            <!--slide inner-->
+        </div>
+        <!--fumear 흘러가는 글자(slide) 끝-->
+        <ul class="clickme3">
+            <li>
+                <a href="#"></a>
+            </li>
+        </ul>
+        <!--product-->
+    </div>
+
+    <!--review-->
+    <div id="review">
+        <h1>
+            REVIEW
+        </h1>
+        <ul class="reviews">
+            <li>
+                <img src="./images/review1.png" alt="리뷰사진1">
+                <div class="textbox">
+                    <p>
+                        향기가 너무 좋아요! <br> 다음에 구매의사 백퍼
+                    </p>
+                </div>
+            </li>
+            <li>
+                <img src="./images/review2.png" alt="리뷰사진2">
+                <div class="textbox">
+                    <p>
+                        보습 효과 짱ㅎㅎ <br> 오래가요~
+                    </p>
+                </div>
+            </li>
+            <li>
+                <img src="./images/review3.png" alt="리뷰사진3">
+                <div class="textbox">
+                    <p>
+                        아이들이 너무 좋아해요
+                    </p>
+                </div>
+            </li>
+            <li>
+                <img src="./images/review4.png" alt="리뷰사진4">
+                <div class="textbox">
+                    <p>
+                        색깔이 너무 좋아여
+                    </p>
+                </div>
+            </li>
+        </ul>
+        <ul class="clickme4">
+            <li>
+                <a href="#none"></a>
+            </li>
+        </ul>
+    </div>
+    <!--review-->
+
+    <!--footer-->
+    <div id="footer">
+        <div class="footer_inner">
+            <div class="clearfix">
+                <ul class="float_left">
+                    <li class="footer_logo">
+                        <img src="./images/main_logo.png" alt="풋터 로고">
+                    </li>
+                    <li>
+                        대표이사 강수민 l 사업등록번호 123_45_67890
+                    </li>
+                    <li>
+                        부산광역시 영도구 해양로 78 l 제품 문의 고객센터 010_7523_4764 (수신자요금부담)
+                    </li>
+                </ul>
+                <ul class="float_right clearfix">
+                    <li>
+                        <a href="https://www.facebook.com/" target="_blank">
+                            <img src="./images/facebook.png" alt="페이스북로고">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/" target="_blank">
+                            <img src="./images/instargram.png" alt="인스타그램로고">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/" target="_blank">
+                            <img src="./images/youtube.png" alt="유튜브로고">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <ul class="sumin">
+                <li>
+                    ㈜ 수민이네. Every Things Is Alright!
+                </li>
+            </ul>
+        </div>
+        <!--footer_inner-->
+    </div>
+    <!--footer-->
+</body>
+
+</html>
