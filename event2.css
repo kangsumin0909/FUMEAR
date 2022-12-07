@@ -194,7 +194,7 @@ header .gnb2 li {
     color: #fff;
     font-size: 14px;
     font-weight: 300;
-
+    background-size: cover;
 }
 
 #footer .footer_inner {
